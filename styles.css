@@ -10,7 +10,6 @@ body {
 }
 
 .container {
-    border: 1px solid white;
     max-width: 1320px;
     margin: 20px auto;
 }
@@ -273,6 +272,10 @@ nav > button {
     margin-bottom: 180px;
 }
 
+.awards img {
+    width: 100%;
+}
+
 /* feature  styles*/
 .feature > h3 {
     text-align: center;
@@ -365,4 +368,21 @@ nav > button {
     border-radius: 31.0938px;
     margin-bottom: 20px;
     margin-top: 40px;
+}
+
+/* trustedCompanies */
+.trustedCompanies > h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 42px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.trustedCompanies_logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
