@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+
+body {
+    background: #100C16;
+}
+
+.container {
+    border: 1px solid white;
+    max-width: 1320px;
+    margin: 20px auto;
+}
+
+/* nav bar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+nav > button {
+    border: 1px solid #8276FF;
+    border-radius: 131px;
+    width: 175px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    background: none;
+    outline: none;
+}
+
+/* cyber monday styles */
+.cyberMonday {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 127px;
+}
+
+.cyberMonday__left > h1 {
+    font-family: 'Design';
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 69px;
+    color: #FFC759;
+    width: 590px;
+    margin-bottom: 20px;
+}
+
+.cyberMonday__left > h1 > span {
+    color: #fff;
+}
+
+.cyberMonday__left > p {
+    font-weight: 400;
+    font-size: 16px;
+    width: 247px;
+    letter-spacing: 0.007em;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.cyberMonday__left > button {
+    width: 211px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    margin-bottom: 20px;
+}
+
+.cyberMonday__left_freeTrial {
+    margin-bottom: 65px;   
+    display: flex;  
+}
+
+.cyberMonday__left_freeTrial > span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #fff;
+    margin-left: 18px;
+    letter-spacing: 0.005em;
+}
+
+.cyberMonday__left_reviews {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.cyberMonday__left_reviews > span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    margin-left: 8px;
+}
+
+.cyberMonday__left_partners {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.cyberMonday__left_partners > img {
+    margin-right: 30px;
+}
+
+/* benefit styles */
+.benefit {
+    margin-bottom: 200px;
+}
+
+.benefit__card_wrapper { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefit > h3 {
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.benefit__card {
+    width: 537px;
+    height: 586px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(141, 159, 244, 0.3);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0.007em;
+    position: relative;
+}
+
+.benefit__card_persent {
+    position: absolute;
+    top: -86px;
+    right: -86px;
+}
+
+.benefit__card_persent > span {
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 52px;
+    position: absolute;
+    top: 56px;
+    right: 70px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.benefit__card_persent > span:last-child {
+    font-size: 50px;
+    line-height: 104px;
+    top: 70px;
+    right: 70px;
+}
+
+.benefit__card > h3 {
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 52px;
+    color: rgba(255, 255, 255, 0.86);
+    margin: 50px auto 40px;
+}
+
+.benefit__card_discount {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 58px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    left: 100px;
+    position: absolute;
+}
+
+.benefit__card_discount > span:last-child {
+    transform: matrix(0.96, -0.27, -0.27, -0.96, 0, 0);
+    height: 0.43px;
+    position: absolute;
+    width:  74.55px;
+    left: 0px;
+    top: 30px;
+    height: 4.43px;
+    background: #F354B4;   
+}
+
+.benefit__card > h2 {
+    font-weight: 700;
+    font-size: 80px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.benefit__card > p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 59px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+}
+
+.benefit__card_adver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.benefit__card_adver > div {
+    margin-bottom: 10px;
+}
+
+.benefit__card_adver img {
+    margin-right: 17px;
+}
+
+.benefit__card > button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    width: 223px;
+    height: 54px;
+    margin-top: 49px;
+}
+
+.benefit__card > p:last-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    margin: 10px 30px;
+    text-align: end;
+}
+
+
+/* awards styles */
+.awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+/* feature  styles*/
+.feature > h3 {
+    text-align: center;
+    letter-spacing: 0.007em;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    color: #FFFFFF;
+    width: 400px;
+    margin: 0 auto 80px;
+}
+
+.feature > h3 > em {
+    color: #FFC759;
+}
