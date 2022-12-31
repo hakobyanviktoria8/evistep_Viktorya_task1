@@ -288,3 +288,81 @@ nav > button {
 .feature > h3 > em {
     color: #FFC759;
 }
+
+.feature_data {
+    background: linear-gradient(147.19deg, #362A87 -2.99%, #2C2747 82.25%, #4323F1 157.46%);
+    border-radius: 26px;
+    width: 1322px;
+    height: 813px;
+    margin-bottom: 180px;
+    padding: 60px;
+}
+
+.feature_data_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.feature_data_top > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature_data_top span {
+    text-align: center;
+    letter-spacing: 0.007em;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feature_data_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature_data_bottom_left > h2 {
+    letter-spacing: 0.007em;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 52px;
+    width: 660px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.feature_data_bottom_wrapper > div {
+    margin-bottom: 16px;
+}
+
+.feature_data_bottom_wrapper span {
+    margin-left: 18px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.feature_data_bottom_left > button {
+    width: 267px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #8276FF;
+    border-radius: 31.0938px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
